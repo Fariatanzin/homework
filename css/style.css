@@ -1,0 +1,38 @@
+/* Common Css Start */
+:root{
+    --primary-font:'Poppins', sans-serif;
+    --secondary-font:'PT Sans', sans-serif;
+    --common-color:#0f2f44;
+    --primary-color:#8484bf;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li{
+    margin: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+input, .form-control:focus{
+    outline: 0;
+    box-shadow: none;
+}
+/* Common Css End */
+/* Nav Section Start */
+#primary-nav #menu ul li a{
+    font-size: 15px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    text-transform:uppercase;
+    color: #353535;
+    padding:19px 20px;
+    
+   
+}
+
+/* Nav Section End */
